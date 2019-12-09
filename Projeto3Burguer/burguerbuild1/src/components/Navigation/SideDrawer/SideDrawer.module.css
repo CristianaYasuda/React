@@ -1,0 +1,76 @@
+.SideDrawer {
+    position: fixed;
+    width: 280px;
+    max-width: 70;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: white;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+
+/*@media (min-width: 500px) {
+    .SideDrawer {
+        display: none;
+    }
+}*/
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+.Logo {
+    height: 11%;
+    margin-bottom: 32px;
+}
+
+/*.NavigationDrawer {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%; 
+ }
+ 
+ .NavigationDrawer a {
+     color: #8F5C2C;
+     text-decoration: none;
+     width: 100%;
+     box-sizing: border-box;
+     display: block;  
+ }
+ 
+ .NavigationDrawer a:hover,
+ .NavigationDrawer a:active,
+ .NavigationDrawer a.active {
+     color: #40A4C8;
+ }
+
+ .NavigationItem {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center; 
+ }
+ 
+ .NavigationItem a {
+    color: white;
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+ }
+ 
+ .NavigationItem a:hover,
+ .NavigationItem a:active,
+ .NavigationItem a.active {
+    background-color: #8F5C2C;
+    border-bottom: 4px solid #40A4C8;
+    color: white;
+ }*/
